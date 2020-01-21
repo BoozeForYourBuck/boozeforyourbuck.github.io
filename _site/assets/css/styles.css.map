@@ -1,0 +1,24 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/aside.scss",
+		"_sass/footer.scss",
+		"_sass/header.scss",
+		"_sass/main.scss",
+		"_sass/menu.scss",
+		"_sass/responsive.scss"
+	],
+	"sourcesContent": [
+		"@import \"aside\";\n@import \"footer\";\n@import \"header\";\n@import \"main\";\n@import \"menu\";\n@import \"responsive\";\n",
+		".aside {\n  background-color: #33b5e5;\n  padding: 15px;\n  color: #ffffff;\n  text-align: center;\n  font-size: 14px;\n  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);\n}\n",
+		".footer {\n  position: fixed;\n  left: 0;\n  bottom: 0;\n  background-color: #a9a9a9;\n  color: #ffffff;\n  text-align: center;\n  font-size: 12px;\n  padding: 15px;\n  width: 100%;\n}\n",
+		".header {\n  background-color: #9933cc;\n  color: #ffffff;\n  padding: 15px;\n}\n",
+		"* {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-family: \"Lucida Sans\", sans-serif;\n  background: lighten(#a9a9a9, 15%);\n}\n",
+		".menu ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n.menu li {\n  padding: 8px;\n  margin-bottom: 7px;\n  background-color: #33b5e5;\n  color: #ffffff;\n  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);\n}\n\n.menu li:hover {\n  background-color: #0099cc;\n}\n",
+		".row::after {\n  content: \"\";\n  clear: both;\n  display: table;\n}\n\n[class*=\"col-\"] {\n  float: left;\n  padding: 15px;\n}\n\n/* For mobile phones: */\n[class*=\"col-\"] {\n  width: 100%;\n}\n\n@media only screen and (min-width: 600px) {\n  /* For tablets: */\n  .col-s-1 {width: 8.33%;}\n  .col-s-2 {width: 16.66%;}\n  .col-s-3 {width: 25%;}\n  .col-s-4 {width: 33.33%;}\n  .col-s-5 {width: 41.66%;}\n  .col-s-6 {width: 50%;}\n  .col-s-7 {width: 58.33%;}\n  .col-s-8 {width: 66.66%;}\n  .col-s-9 {width: 75%;}\n  .col-s-10 {width: 83.33%;}\n  .col-s-11 {width: 91.66%;}\n  .col-s-12 {width: 100%;}\n}\n@media only screen and (min-width: 768px) {\n  /* For desktop: */\n  .col-1 {width: 8.33%;}\n  .col-2 {width: 16.66%;}\n  .col-3 {width: 25%;}\n  .col-4 {width: 33.33%;}\n  .col-5 {width: 41.66%;}\n  .col-6 {width: 50%;}\n  .col-7 {width: 58.33%;}\n  .col-8 {width: 66.66%;}\n  .col-9 {width: 75%;}\n  .col-10 {width: 83.33%;}\n  .col-11 {width: 91.66%;}\n  .col-12 {width: 100%;}\n}\n"
+	],
+	"names": [],
+	"mappings": "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"
+}
